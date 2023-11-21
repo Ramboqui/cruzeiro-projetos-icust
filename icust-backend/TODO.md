@@ -1,0 +1,4 @@
+- fix warnings/logs
+- smaller docker image
+- fix docker image caching
+- re-add hystrix?
