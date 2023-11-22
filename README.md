@@ -23,12 +23,12 @@ Para executar local, importe o projeto back em uma IDE (usamos IntelliJ) como pr
 
 
 ## Participantes
-Lucas da Silva Gonçalves - 2319037-0
-Lucas Gabriel Rodrigues - 
-Larissa Gabriel Rodrigues - 2302916-1
-Vinicius Sylvestre de Farias Lima - 2302916-1
-Gabriel Jesus Pauferro do Nascimento - 2323268-4
-Pedro Luka Oliveira Cazorla - 2355230-1
-Matheus Custodio de Souza -
+Lucas da Silva Gonçalves - 2319037-0<br>
+Lucas Gabriel Rodrigues - <br>
+Larissa Gabriel Rodrigues - 2302916-1<br>
+Vinicius Sylvestre de Farias Lima - 2302916-1<br>
+Gabriel Jesus Pauferro do Nascimento - 2323268-4<br>
+Pedro Luka Oliveira Cazorla - 2355230-1<br>
+Matheus Custodio de Souza -<br>
 
 
