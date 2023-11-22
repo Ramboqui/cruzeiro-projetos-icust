@@ -6,11 +6,11 @@ Repositório com códigos do projeto iCust para Projeto de Linguagens de Program
 ## Frontend
 Para desenvolvimento do frontend foi utilizado o framework Ionic em sua versão Angular, assim, gerando um código multiplataforma.
 Para o ambiente de teste deve-se ter instalado o NodeJS, NPM e Ionic em sua última versão, como descrito em sua documentação, após, basta utilizar o comando ionc serve
-Para deploy do app é utilizado o capacitor, bastando digitar o comando 'ionic capacitor build <plataforma>', podendo a plataforma ser Android e IOS.
+Para deploy do app é utilizado o capacitor, bastando digitar o comando 'ionic capacitor build -plataforma-', podendo a plataforma ser Android e IOS.
 
-Documentação Ionic: https://ionicframework.com/docs
-Documentação Angular: https://angular.io/docs
-Documentação Capacitor: https://capacitorjs.com/docs
+Documentação Ionic: https://ionicframework.com/docs<br>
+Documentação Angular: https://angular.io/docs<br>
+Documentação Capacitor: https://capacitorjs.com/docs<br>
 
 ## Backend
 Para desenvolvimento do backend foi utilizado o Java com Spring Boot para gerar uma REST API com integração à um banco MySQL provisionado na AWS.
