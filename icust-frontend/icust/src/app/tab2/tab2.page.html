@@ -1,0 +1,77 @@
+<ion-header [translucent]="true" style="box-shadow: none;">
+  <ion-toolbar>
+   
+      <ion-searchbar style="box-shadow: none;" class="shadow" placeholder="Buscar no ICust"></ion-searchbar>
+  
+  </ion-toolbar>
+</ion-header>
+<br>
+<ion-content [fullscreen]="true">
+
+  
+  <ion-grid style="margin: 0 auto;">
+    <ion-row>
+      <ion-col style="font-size: 16px; font-weight: bold; color: rgb(59, 59, 59);">Categorias</ion-col>
+      <ion-col></ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+  <div class="grid-container">
+
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+    <div class="grid-block-extend" style="background-size: cover; background-color: white;" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;"><ion-skeleton-text [animated]="true" style="width: 80%;"></ion-skeleton-text></h6>
+      </div>
+    </div>
+
+
+
+    <div class="grid-block-extend" *ngFor="let result of results" style="background-image: url({{ result.icone }}); background-size: cover;" >
+      <div style="background-color: rgba(0, 0, 0, 0.521); width: 100%; height: 100%; border-radius: 5px; display: flex; justify-content: start; align-content: flex-start; flex-direction: column;" (click)="goToSeach(result.idTipoOfertaServico)">
+        <h6 style="color: white; font-weight: bold; font-size: 14px; margin-top: 5px; margin-left: 5px;">{{ result.nomeTipoOfertaServico }}</h6>
+      </div>
+    </div>
+
+  </div>
+  <br>
+
+
+</ion-content>

@@ -1,0 +1,36 @@
+.grid-container{
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-content: start;
+    flex-wrap: wrap;
+  
+  }
+
+  
+  .grid-block{
+    width: 22%;
+    height: 15%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 5px;
+  
+  }
+
+  .grid-block-extend{
+    width: 46%;
+    height: 10%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius: 5px;
+    margin-top: 15px;
+  
+  }
+
+  .shadow{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+
+  ion-content{
+    --background: #fff url('https://i.ibb.co/yy117xz/Design-sem-nome.png') no-repeat center center / cover;
+  }
+  

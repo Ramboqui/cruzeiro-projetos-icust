@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ICust</string>
+    <string name="title_activity_main">ICust</string>
+    <string name="package_name">com.projetounicsul.com</string>
+    <string name="custom_url_scheme">com.projetounicsul.com</string>
+</resources>

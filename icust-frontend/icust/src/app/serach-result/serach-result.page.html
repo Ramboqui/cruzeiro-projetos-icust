@@ -1,0 +1,57 @@
+<ion-header [translucent]="true" style="box-shadow: none;">
+  <ion-toolbar>
+    <ion-title class="ion-text-center" style="font-size: 15px; font-weight: bold; color: rgb(59, 59, 59);">
+      Resultado da pesquisa
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <ion-grid>
+
+    <div class="result-box" *ngFor="let result of results">
+      <div class="result-box-icon">
+        <img src="{{ result.foto }}" alt="" style="width: 100%; height: 100%; border-radius: 50%;">
+      </div>
+      <div class="result-box-content">
+        <span class="result-box-title">{{ result.titulo  }}</span>
+        <span style="font-weight: lighter; font-size: 14px;">{{ result.prestador.nome }}</span>
+        <div class="result-box-review"><ion-icon name="star" style="color:  #d4af37;"></ion-icon> {{ result.nota }}</div>
+      </div>
+    </div>
+
+
+
+    <div class="result-box" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; margin-left: 40px; margin-top: 10px;">
+        <span style="width: 100%;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+        <span style="font-weight: lighter; font-size: 14px;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+      </div>
+    </div>
+
+    <div class="result-box" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; margin-left: 40px; margin-top: 10px;">
+        <span style="width: 100%;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+        <span style="font-weight: lighter; font-size: 14px;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+      </div>
+    </div>
+
+    <div class="result-box" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; margin-left: 40px; margin-top: 10px;">
+        <span style="width: 100%;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+        <span style="font-weight: lighter; font-size: 14px;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+      </div>
+    </div>
+
+    <div class="result-box" [style.display]="isVisible ? 'block' : 'none'">
+      <div style="width: 100%; margin-left: 40px; margin-top: 10px;">
+        <span style="width: 100%;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+        <span style="font-weight: lighter; font-size: 14px;"><ion-skeleton-text [animated]="true" style="width: 40%;"></ion-skeleton-text></span>
+      </div>
+    </div>
+    
+
+  </ion-grid>
+</ion-content>

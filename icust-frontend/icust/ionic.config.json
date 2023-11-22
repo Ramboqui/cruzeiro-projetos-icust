@@ -1,0 +1,7 @@
+{
+  "name": "icust",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
